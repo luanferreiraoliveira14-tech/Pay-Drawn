@@ -13,7 +13,7 @@ header h1{
 }
 .Seta{
     float: left;
-    padding-top: 1 rem;
+    padding: 0.5rem;
 }
 nav{
     background: rgb(255, 238, 0);
@@ -51,8 +51,11 @@ nav ul li a:hover{
 
 }
 .Tela2 ul{
+    padding: 0 1rem;
     justify-content: right;
-    padding: 1rem 0;
+}
+.Tela2 ul li{
+    right: 20px;
 }
 main{
     background: pink;
